@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/cogniforge?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC}
+    username: ${DB_USER:cogniforge}
+    password: ${DB_PASSWORD}
